@@ -4,11 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ultimate Brain Challenge</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
-    <h1>Welcome to Ultimate Brain Challenge</h1>
-    <p>Test your knowledge and have fun!</p>
-    <script src="script.js"></script>
+    <header>
+        <h1>Welcome to Ultimate Brain Challenge</h1>
+        <p>Test your knowledge and have fun!</p>
+    </header>
+
+    <main>
+        <div id="quiz-container">
+            <img id="quiz-image" src="quiz_image.jpg" alt="Quiz Image">
+            <p id="question">Loading question...</p>
+            <div id="options"></div>
+            <button id="next-button" onclick="nextQuestion()">Next</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Ultimate Brain Challenge</p>
+    </footer>
+
+    <script src="script.js"></script> 
 </body>
 </html>
